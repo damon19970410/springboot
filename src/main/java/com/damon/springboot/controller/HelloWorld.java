@@ -11,4 +11,9 @@ public class HelloWorld {
     public String hello(){
         return "王赟";
     }
+    @GetMapping("lll")
+    @ResponseBody
+    public String Damon(){
+        return "小组长";
+    }
 }
